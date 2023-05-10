@@ -13,12 +13,12 @@ class Product {
   private String type;
   private String version;
   private String event;
-  private String color;
+  private String hue;
 
   Product() {}
-  Product(String id, String name, String type, String version, String event, String color) {
+  Product(String id, String name, String type, String version, String event, String hue) {
     this(id, name, type, version, event);
-    this.color = color;
+    this.hue = hue;
   }
   Product(String id, String name, String type, String version, String event) {
     this.id = id;

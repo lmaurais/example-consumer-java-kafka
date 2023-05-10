@@ -34,7 +34,7 @@ public class ProductsPactTest {
     body.stringType("name", "product name");
     body.stringType("type", "product series");
     body.stringType("id", "5cc989d0-d800-434c-b4bb-b1268499e850");
-    body.stringType("color", "red");
+    body.stringType("hue", "red");
     body.stringMatcher("version", "v[a-zA-z0-9]+", "v1");
     body.stringMatcher("event", "^(CREATED|UPDATED|DELETED)$", "CREATED");
 
